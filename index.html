@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="to-do__box">
+            <form class="to-do__list">
+                <div class="to-do__label-area">
+                    <label for="to-do" id="toDoLabel" class="to-do__label">
+                            Add a New Task
+                    </label>
+                </div>
+                <div class="to-do__input-area">
+                    <textarea type="text" name="to-do" id="toDoInput" class="to-do__input" placeholder="insert task"></textarea>
+                </div>
+                
+                <button  type="submit" class="button-purpple"> 
+                    add 
+                </button>
+            </form>
+        </div>
+
+        <div  class="select-all__area"> 
+            <button type="button" class="button-gray all-done" >Mark Done</button>
+            <button type="button" class="button-gray remove-all">Delete</button>
+
+        </div>
+
+      
+        <div  class="to-do__box add-itens container" >
+        </div>
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
+
